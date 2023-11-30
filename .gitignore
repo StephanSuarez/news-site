@@ -1,0 +1,43 @@
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Carpeta generada por IDE
+.idea/
+
+# Archivos de compilación
+*.o
+*.out
+*.dll
+*.exe
+
+# Carpeta de construcción
+/build/
+
+# Archivo de configuración local
+.env
+
+# Carpeta de configuración local
+/config/local/
+
+# Archivos de registro
+*.log
+
+# Datos temporales
+/tmp/
+
+# Dependencias de Node.js
+/node_modules/
+
+# Dependencias de Python
+/venv/
+
+# Archivos de respaldo
+*~
+*.bak
+
+# Archivos de configuración del editor
+.vscode/
+
+# Package-lock
+package-lock.json

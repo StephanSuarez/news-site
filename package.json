@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "path": "^0.12.7"
+  },
+  "name": "news-site",
+  "version": "1.0.0",
+  "description": "Explore and publish news of you interest ",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/StephanSuarez/news-site.git"
+  },
+  "keywords": [
+    "news",
+    "publish",
+    "explore",
+    "show"
+  ],
+  "author": "Stephan Suarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephanSuarez/news-site/issues"
+  },
+  "homepage": "https://github.com/StephanSuarez/news-site#readme"
+}

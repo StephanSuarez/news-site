@@ -1,0 +1,41 @@
+:root{
+    --main-background-color: #132537;
+    --main-color: #fffbf3;
+    --secundary-color: #1f97ce;
+}
+
+body {
+    font-family: 'Your Custom Font', sans-serif; 
+    background-color: var(--main-background-color); 
+    color: var(--main-color)
+}
+
+.default-link{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.bnt{
+    align-items: center;
+}
+
+.btn-nav-navigator {
+    
+}
+
+
+.default-link:hover, .default-link:active{
+    color: var(--secundary-color)
+}
+
+.main-title{
+    color: var(--secundary-color);
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 2px 4px var(--secundary-color); 
+    background-color: var(--main-background-color);
+    color: var(--main-color);
+}
+
